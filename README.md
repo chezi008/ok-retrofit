@@ -3,7 +3,7 @@
 
 [![](https://jitpack.io/v/chezi008/ok-retrofit.svg)](https://jitpack.io/#chezi008/ok-retrofit)
 
-## 1、引入依赖
+#### 1、引入依赖
 
 ```
 dependencies {
@@ -11,13 +11,13 @@ dependencies {
 	}
 ```
 
-## 2、在Application里面进行初始化操作
+#### 2、在Application里面进行初始化操作
 
 ```
 RetrofitManager.init("http://gank.io/ ")
 ```
 
-## 3、新建api类
+#### 3、新建api类
 
 ```
 interface RetorfitApi{
@@ -30,7 +30,7 @@ interface RetorfitApi{
 }
 ```
 
-## 4、http请求
+#### 4、http请求
 
 ```
 RetrofitManager.retrofit.create(RetorfitApi::class.java)
